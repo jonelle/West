@@ -143,9 +143,62 @@ header {
 #box2 { background: url(../images/bg/slide2.jpg) 50% 0 no-repeat fixed; width:1400px;}
 #box2 .notes { width:35%; float:right; padding-right:250px; }
 
-#box3 .photo {float: left; padding: 5px;}
-#box3 .entry { width:90%; margin: 0 auto; clear:both;}
-#box3 .notes { clear:both; margin: 10px;}
+/* Pane 4: Cleveland */
+#box3 .entry {width:90%; margin: 0 auto; clear:both;}
+#box3 .notes {clear:both; margin: 10px;}
+
+#box3 .grid {
+	padding: 10px;
+	max-width: 1300px;
+	margin: 0 auto;
+	list-style:none;
+	text-align:center;
+}
+#box3 .grid li {
+	display: inline-block;
+	width: 300px;
+	margin: 0;
+	padding: 10px;
+	text-align:left;
+	position: relative; /* any left, right etc changes are relative to natural position */
+}
+
+#box3 .grid figure {
+	margin: 0;
+	position: relative; 
+}
+#box3 .grid figure img {
+	max-width: 100%;
+	display: block;
+	position:relative;
+}
+
+#box3 .grid figcaption {
+	position: absolute; /*positions absoutely within enclosing container*/
+	bottom: 0;
+	left: 0;
+	padding: 20px;
+	background: #2c3f52;
+	color: #ed4e6e;
+	font-family: arial;
+}
+
+.music-cap figure img {
+	z-index: 10;
+	transition: transform 0.4s;
+}
+
+.music-cap figcaption {
+	height:50px;
+	width:260px;
+	bottom: 0;
+}
+
+.music-cap figure:hover img {
+	transform: translateY(-90px);
+}
+
+
 
 #box5 {/*background: url(../images/bg/slide5.jpg) 50% 0 no-repeat fixed; */}
 
