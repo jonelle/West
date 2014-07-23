@@ -177,8 +177,9 @@ header {
 	position: absolute; /*positions absoutely within enclosing container*/
 	bottom: 0;
 	left: 0;
-	background: #2c3f52;
+	background:#000;
 	color: #ed4e6e;
+	box-shadow: 7px 7px 5px #ccc;
 	font-family: arial;
 }
 
@@ -191,10 +192,11 @@ header {
 	height:30px;
 	width:300px;
 	bottom: 0;
+
 }
 
 .music-cap figure:hover img {
-	transform: translateY(-30px);
+	transform: translateY(-40px);
 }
 
 
