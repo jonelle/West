@@ -49,6 +49,7 @@
 	position: absolute;
 	top: 95px; left: 40px;
 	width: 6000px;
+	height:740px;
 	overflow:hidden;
 }
 
@@ -57,7 +58,7 @@
 	float: left;
 	line-height: 22px;
 	padding: 35px 100px 30px 100px;
-	height:740px;
+	height:100%;
 	border-right: 1px solid rgba(255,255,255,0.3); 
 	border-left: 1px solid rgba(0,0,0,0.4); 
 	box-shadow: 0 0 50px rgba(0,0,0,0.8);
