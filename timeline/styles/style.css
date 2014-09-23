@@ -178,9 +178,15 @@ header {
 	bottom: 0;
 	left: 0;
 	background:#000;
-	color: #ed4e6e;
 	box-shadow: 7px 7px 5px #ccc;
-	font-family: arial;
+}
+
+#box3 .grid figcaption a {
+	color: #ccc;
+	font-family: Times New Roman;
+	font-size: 12px;
+	font-style: italic;
+	padding-left: 10px;
 }
 
 .music-cap figure img {
@@ -192,7 +198,6 @@ header {
 	height:30px;
 	width:300px;
 	bottom: 0;
-
 }
 
 .music-cap figure:hover img {
