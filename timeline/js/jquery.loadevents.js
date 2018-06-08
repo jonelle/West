@@ -18,10 +18,7 @@
 				// Hoverscroll the menu
 				$('#my-list').hoverscroll();
 
-				// localScroll to menu links
-				$.localScroll.defaults.axis = 'yx';
-				$('#menu').localScroll({offset:{top:-175, left:0}});
-				
+			
 				
 				//spread the photo deck
 				
