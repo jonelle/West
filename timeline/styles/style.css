@@ -44,23 +44,21 @@
 }
 
 
-/* horizontal layout --------------------------------*/
+/* layout --------------------------------*/
 #container {
+	display:grid;
 	position: absolute;
-	top: 95px; left: 40px;
-	width: 6000px;
-	overflow:hidden;
+	top: 95px; 
+	width: 100%;
 }
 
 .box {
-	width: 1020px;
-	float: left;
 	line-height: 22px;
 	padding: 35px 100px 30px 100px;
-	height:740px;
-	border-right: 1px solid rgba(255,255,255,0.3); 
-	border-left: 1px solid rgba(0,0,0,0.4); 
-	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	min-height: calc(100vh - 190px);
+	border-top: 1px solid rgba(255,255,255,0.3); 
+	border-bottom: 1px solid rgba(0,0,0,0.4); 
+/*	box-shadow: 0 0 50px rgba(0,0,0,0.8);*/
 }
 
 .box .entry {
@@ -96,6 +94,7 @@ header {
 	border-top: 1px solid #ccc;	
 	width:70%;
 	max-width:670px;
+	height: calc(100vh - 190px);
 }
 
 #emailbody {
@@ -140,7 +139,7 @@ header {
 #box1 .entry { background:none;}
 #box1 .notes { width: 400px; float:right; margin-right: 40px; 	-moz-box-shadow: -4px 3px 3px #333;background: url(../images/paper1.jpg);}
 
-#box2 { background: url(../images/bg/slide2.jpg) 50% 0 no-repeat fixed; width:1400px;}
+#box2 { background: url(../images/bg/slide2.jpg) 50% 0 no-repeat fixed; }
 #box2 .notes { width:35%; float:right; padding-right:250px; }
 
 /* Pane 4: Cleveland */
